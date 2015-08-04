@@ -6,7 +6,7 @@
 #  None
 #
 # Configuration
-#  Change the script if you want to exeute a different command
+#  Change the script if you want to execute a different command
 #
 # Commands:
 #  hubot say <something> - Say something out loud

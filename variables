@@ -1,0 +1,5 @@
+HUBOT_IRC_ROOMS=#BabyTownFrolics
+HUBOT_PLAY_URL=http://localhost:5050
+HUBOT_IRC_NICK=Indy
+HUBOT_PLAY_TOKEN=9aa488
+HUBOT_IRC_SERVER=localhost

@@ -1,0 +1,5 @@
+Start the IRC server:
+   usr/local/sbin/ngircd
+Start Hubot:
+   bin/hubot -a irc
+That's all!

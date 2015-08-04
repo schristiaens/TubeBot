@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.bf.hubot</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/bishopfox007/irc-hubot/bin/hubot</string>
+    <string>--adapter</string>
+    <string>irc</string>
+  </array>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+  <key>UserName</key>
+  <string>bishopfox007</string>
+  <key>WorkingDirectory</key>
+  <string>/Users/bishopfox007/irc-hubot</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/bishopfox007/irc-hubot/log/error.log</string>
+  <key>StandardOutPath</key>
+  <string>/Users/bishopfox007/irc-hubot/log/out.log</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    <key>HUBOT_IRC_ROOMS</key>
+    <string>#BabyTownFrolics</string>
+    <key>HUBOT_IRC_NICK</key>
+    <string>Indy</string>
+    <key>HUBOT_IRC_SERVER</key>
+    <string>localhost</string>
+  </dict>
+</dict>
+</plist>

@@ -9,21 +9,20 @@
 #  Change the script if you want to exeute a different command
 #
 # Commands:
-#  hubot volume <0-10> - Set the volume between 0 and 10
-#
+#  mute - Mute the volume
+
 # Author:
 #  Steve Christiaens
 #
 
 module.exports = (robot) ->
- robot.respond /volume (.*)$/i, (msg) ->
-    val = msg.match[1]
+ robot.hear /mute/i , (res) ->
     @exec = require('child_process').exec
-    command = "osascript -e 'set Volume #{val}'"
+    command = "osascript -e 'set Volume 0'"
 
-    msg.send "Volume set to #{val}."
+    res.send "Audio muted."
 
     @exec command, (error, stdout, stderr) ->
-      msg.send error
-      msg.send stdout
-      msg.send stderr
+      res.send error
+      res.send stdout
+      res.send stderr
